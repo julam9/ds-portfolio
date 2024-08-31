@@ -174,6 +174,13 @@ section {
     height: 85vh;
 }
 
+#profile img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .section_pic_container {
     display: flex;
     height: 475px;
