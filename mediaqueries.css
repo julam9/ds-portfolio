@@ -161,5 +161,10 @@
     .sub-detail_container {
         max-width: 250px;
     }
-    
+    article p {
+        text-align: center;
+    }
+    .text_container p {
+        text-align: center;
+    }
 }
