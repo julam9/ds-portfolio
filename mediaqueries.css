@@ -167,4 +167,39 @@
     .text_container p {
         text-align: center;
     }
+    .contact-container {
+        flex-direction: column;
+        padding-bottom: 0rem;
+    }
+    .contact-card {
+        max-width: 100%;
+    }
+    .contact-info {
+        max-width: 100%;
+        text-align: center;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+    }
+    .submit-button {
+        width: 100%;
+        font-size: 0.8rem;
+        margin-top: 1rem;
+    }
+    .info-item {
+        text-align: center;
+        justify-content: center;
+        margin-bottom: 0.25rem;
+    }
+    label {
+        font-size: 0.85rem;
+        margin-bottom: 0.25rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        margin-top: 40px;
+    }
 }
