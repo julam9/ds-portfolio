@@ -49,7 +49,7 @@
         max-width: 470px;
     }
     .sub-detail_container {
-        max-width: 300px;
+        max-width:300px ;
     }
 }
 
@@ -65,7 +65,7 @@
         max-width: 35px;
     }
     #profile {
-        height: 72vh;
+        height:72vh;
         margin-bottom: 0;
     }
     .about-containers, .contact-info-upper-container,
@@ -76,10 +76,10 @@
         font-size: 0.9rem;
     }
     article, .sub-detail_container, .subdetail_container, .info-item p, .contact-info a {
-        font-size: 0.9rem;
+        font-size:0.9rem;
     }
     .nav-links {
-        flex-direction:column;
+        flex-direction: column;
         gap: 0.5rem;
         text-align: center;
     }
@@ -111,10 +111,10 @@
         line-height: 1.4;
     }
     #about, #proficiencies, #other-platforms {
-        padding: 0 0 ;
+        padding: 0 0;
     }
     #proficiencies {
-        margin-top: 5rem;
+        margin-top:5rem;
     }
     #projects {
         padding: 5rem 0;
@@ -137,10 +137,10 @@
     }
     .details_container {
         gap: 2rem;
-    } 
+    }
     footer {
         padding: 1rem 0;
-    }
+    }    
     footer p {
         font-size: 0.7rem;
     }
@@ -190,7 +190,7 @@
     .info-item {
         text-align: center;
         justify-content: center;
-        margin-bottom: 0.25rem;
+        margin-bottom: 0.25rem;   
     }
     label {
         font-size: 0.85rem;
