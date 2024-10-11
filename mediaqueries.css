@@ -61,9 +61,9 @@
     .hamburger-icon {
         width: 25px;
     }
-    .logo img {
+    /* .logo img {
         max-width: 35px;
-    }
+    } */
     #profile {
         height:72vh;
         margin-bottom: 0;
@@ -159,7 +159,7 @@
         max-width: 325px;
     }
     .sub-detail_container {
-        max-width: 250px;
+        max-width: 240px;
     }
     article p {
         text-align: center;

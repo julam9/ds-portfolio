@@ -59,10 +59,10 @@ nav ul li {
     font-size: 1.3rem;
 }
 
-.logo img {
+/* .logo img {
     max-width: 50px;
     height: auto;
-}
+} */
 
 a {
     color: black;
@@ -347,6 +347,24 @@ article p {
 #other-platforms {
     padding: 4rem 0;
     text-align: center;
+} 
+
+.article_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* To space them out evenly */
+    gap: 2rem; /* Add gap between images */
+    margin-top: 2rem;
+}
+
+article {
+    flex-basis: 30%; /* Roughly 307px for three images in a row */
+    max-width: 307px; /* Set the max-width */
+}
+
+.platform_img {
+    width: 100%; /* Make sure images adjust to their container */
+    height: auto; /* Maintain aspect ratio */
 }
 
 .sub-detail_container {
@@ -354,7 +372,7 @@ article p {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 1.5rem;
-    max-width: 340px;
+    max-width: 240px;
     text-align: center;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s ease-in-out;
